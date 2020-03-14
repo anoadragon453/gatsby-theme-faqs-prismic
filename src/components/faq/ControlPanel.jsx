@@ -36,6 +36,15 @@ const ControlPanel = (props) => {
             padding: '50px 0 40px',
           }}
         >
+          <div
+            className="container"
+            sx={{
+              marginLeft: 'auto',
+              paddingBottom: '2em',
+            }}
+          >
+            <a href="/">← Home</a>
+          </div>
           <SearchBar
             searchActive={searchActive}
             searchQuery={searchQuery}
